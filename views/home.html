@@ -3,20 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mercado Liebre</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    
+    <script src="https://kit.fontawesome.com/1e26533911.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header>
-      <div><img src="/images/logo-mercado-liebre.svg" alt="" /></div>
-      <div>
+    <header class = "body_header">
+      <div class="header_div_logo">
+        <img src="/images/logo-mercado-liebre.svg" alt="" /></div>
+      <div class="header_div_formulario">
         <form action="">
-          <input type="text" />
-          <button>Buscar</button>
+          <div><input type="text" /></div>
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
       </div>
-      <p>comprá en cuotas y sin tarjeta de credito</p>
-      <nav>
+      <p><i class="fa-solid fa-hand-holding-dollar"></i>   comprá en cuotas y con tarjeta de credito</p>
+      <nav class="header_nav">
         <ul type="none">
           <li><a href="">Ofertas</a></li>
           <li><a href="">Tiendas Oficiales</a></li>
@@ -24,14 +28,17 @@
           <li><a href="">Ayuda</a></li>
         </ul>
         <ul type="none">
-          <li><a href="">Creá tu cuenta</a></li>
-          <li><a href="">Ingresá</a></li>
-          <li><a href="">Mis compras</a></li>
+          <li><a href="">Creá tu cuenta</a>  <i class="fa-solid fa-address-card"></i></li>
+          <li><a href="">Ingresá</a>  <i class="fa-solid fa-right-to-bracket"></i></li>
+          <li><a href="">Mis compras</a>  <i class="fa-solid fa-basket-shopping"></i></li>
         </ul>
       </nav>
+      <div class="header_div_burger_menu">
+        <i class="fas fa-bars"></i>
+        </div>
     </header>
-    <main>
-      <section>
+    <main class = "main">
+      <section class="main_section_ultimavisita">
         <h3>Basado en tu ultima visita</h3>
         <article>
           <div>
@@ -82,7 +89,7 @@
           <h4>Cafetera Moulinex</h4>
         </article>
       </section>
-      <section>
+      <section class="main_section_oferta">
         <h3>Ofertas</h3>
         <article>
           <div>
@@ -135,22 +142,22 @@
       </section>
     </main>
 
-    <footer>
-      <section>
+    <footer class="footer">
+      <section class="footer_pago">
         <h4>Pagá con tarjeta o en efectivo</h4>
         <p>
           Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o
           efectivo en puntos de pago. ¡Y siempre es seguro!
         </p>
       </section>
-      <section>
+      <section class="footer_envio">
         <h4>Envío gratis desde $ 2.500</h4>
         <p>
           Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en
           miles de productos. Es un beneficio de Mercado Puntos.
         </p>
       </section>
-      <section>
+      <section class="footer_seguridad">
         <h4>Seguridad, de principio a fin</h4>
         <p>
           ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
@@ -161,4 +168,3 @@
     </footer>
   </body>
 </html>
-

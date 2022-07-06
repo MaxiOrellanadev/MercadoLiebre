@@ -1,0 +1,71 @@
+body{
+  
+}
+
+.body_header{
+background-color: var(--color_Amarillo);
+}
+
+.header_div_logo{
+    width: 40%;
+    padding: 15px;
+}
+
+.header_div_formulario{
+    padding: 15px;
+
+}
+
+.header_div_nav{
+
+}
+
+.header_div_burger_menu{
+    background-color: var(--color_Celeste);
+    color: white;
+    border: solid 1px black;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border:none
+}
+/* main */
+
+.main{
+
+}
+
+.main_section_ultimavisita{
+
+}
+
+.main_section_oferta{
+
+}
+
+/* footer */
+
+.footer{ 
+     text-align: center;
+    font-family: 'Roboto';
+    margin: 10px;
+    
+}
+
+.footer_pago{
+
+}
+
+.footer_envio{
+
+}
+
+.footer_seguridad{
+
+}
+
+
+
