@@ -32,28 +32,22 @@ background-color: var(--color_Amarillo);
     margin-right: auto;
     border:none
 }
+
+.header_barraDeNavegacion{
+    padding-bottom: 3px;
+}
 /* main */
 
 .main{
-    width: 90%;
-    background-color: #ebebeb;
-    justify-content: center;
+    background-color:var(--color_Gris_claro);
 }
 .main_section{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90%;
+    margin:auto;
 }
-
 
 main i{
     color: #39b54a;
-}
-main .caja_cafetera{
-    padding: 10px;
-    background-color: white;
-    border: 1px solid #ebebeb;
-    margin: 10px;
 }
 
 main img{
