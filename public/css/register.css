@@ -1,3 +1,5 @@
+
+
 .formulario{
     padding: 20px;
     
@@ -49,7 +51,10 @@
         border-radius: 15px;
         padding:25px
     }
-
+    .loginn{
+        padding: 150px 50px;
+       
+       }
 
 }
 
