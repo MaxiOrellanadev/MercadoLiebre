@@ -137,6 +137,8 @@ body {margin:0px;
   text-align: center;
   font-family: "Roboto";
   margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .descuento {
@@ -269,6 +271,19 @@ footer .copi {
     display: none;
   }
   
+  .footer_pago{
+    width: 30%;
+    padding: 10px ;
+  }
+  .footer_envio{
+    width: 30%;
+    padding: 10px ;
+  }
+  .footer_seguridad{
+    width: 30%;
+    padding: 10px ;
+  }
+
 /* hola */
 
   }
